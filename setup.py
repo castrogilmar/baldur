@@ -32,5 +32,5 @@ setup(
         'Topic :: Software Development :: Libraries :: Python Modules',        
     ],
     scripts=['bin/baldur'],
-    data_files=[('/var/lib/baldur', ['config/conf.json'])],
+    data_files=[('/var/lib/baldur', ['config_file/conf.json'])],
 )
